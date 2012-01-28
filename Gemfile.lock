@@ -1,0 +1,64 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.6)
+    backports (2.3.0)
+    equivalent-xml (0.2.9)
+      nokogiri (>= 1.4.3)
+    haml (3.1.4)
+    htmlentities (4.3.1)
+    json (1.6.5)
+    json-ld (0.1.0)
+      json (>= 1.5.1)
+      rdf (>= 0.3.4)
+    json_pure (1.6.5)
+    linkeddata (0.3.4)
+      json-ld (>= 0.0.7)
+      rdf (>= 0.3.4)
+      rdf-isomorphic (>= 0.3.4)
+      rdf-json (>= 0.3.0)
+      rdf-microdata (>= 0.2.2)
+      rdf-n3 (>= 0.3.6)
+      rdf-rdfa (>= 0.3.7)
+      rdf-rdfxml (>= 0.3.5)
+      rdf-trix (>= 0.3.0)
+      rdf-turtle (>= 0.1.0)
+    nokogiri (1.5.0)
+    rdf (0.3.4.1)
+      addressable (>= 2.2.6)
+    rdf-isomorphic (0.3.4)
+      rdf (>= 0.2.3)
+    rdf-json (0.3.0)
+      json_pure (>= 1.4.2)
+      rdf (~> 0.3.0)
+    rdf-microdata (0.2.3.1)
+      htmlentities (>= 4.3.0)
+      json (>= 1.6.1)
+      rdf (>= 0.3.4)
+      rdf-xsd (>= 0.3.4)
+    rdf-n3 (0.3.6)
+      rdf (>= 0.3.4)
+    rdf-rdfa (0.3.9)
+      backports
+      haml (>= 3.0.0)
+      htmlentities (>= 4.3.0)
+      rdf (>= 0.3.3)
+      rdf-xsd (>= 0.3.5)
+    rdf-rdfxml (0.3.5)
+      nokogiri (>= 1.4.4)
+      rdf (>= 0.3.4)
+    rdf-trix (0.3.0)
+      rdf (~> 0.3.0)
+    rdf-turtle (0.1.1)
+      rdf (>= 0.3.4)
+    rdf-xsd (0.3.5)
+      nokogiri (>= 1.5.0)
+      rdf (>= 0.3.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  equivalent-xml
+  linkeddata
+  rdf
