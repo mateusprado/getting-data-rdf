@@ -7,7 +7,7 @@ GEM
       nokogiri (>= 1.4.3)
     haml (3.1.4)
     htmlentities (4.3.1)
-    json (1.6.5)
+    json (2.2.0)
     json-ld (0.1.0)
       json (>= 1.5.1)
       rdf (>= 0.3.4)
