@@ -9,7 +9,7 @@ GEM
       temple (>= 0.8.0)
       tilt
     htmlentities (4.3.1)
-    json (1.6.5)
+    json (2.3.1)
     json-ld (0.1.0)
       json (>= 1.5.1)
       rdf (>= 0.3.4)
